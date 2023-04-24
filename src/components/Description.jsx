@@ -22,8 +22,7 @@ const Description = () => {
           duration:2
         }}
         >
-          Complete documentation of the Framer Motion animation library. 
-          A production-ready motion library for React.</motion.div>
+          Отправляйся в кругосветное путешествие, открывай страны, города и секретные места!.</motion.div>
 
           <motion.div id='div2'
           initial={{
@@ -67,7 +66,7 @@ const Description = () => {
             duration:2
           }}>
             <motion.img
-            src='img/ball.jpg'
+            src='img/fl.png'
             className='ball'
             width={200}
 
@@ -102,7 +101,7 @@ const Description = () => {
             duration:2
           }}>
             <motion.img drag='x'
-            src='img/ball.jpg'
+            src='img/pl.png'
             className='ball'
             width={200}
 
@@ -121,11 +120,11 @@ const Description = () => {
 
           </motion.div>
 
-            <motion.button className='btn btn-primary'
+            <motion.button className='btn btn-info'
             whileHover={{
               scale:1.2
             }}>
-            Нажми</motion.button>
+            Отправиться</motion.button>
             </div>
 
     </div>

@@ -14,11 +14,11 @@ const Slider = () => {
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3>Путешествия без границ</h3>
+        <p>Открывайте новын горизонты вместе с World Tour.</p>
          
           <Link exact to={'/form'}>
-          <Button variant="primary">
+          <Button variant="info">
             Обратная связь 
           </Button>
           </Link>

@@ -43,12 +43,12 @@ const Item = (props) => {
                         {
              context.isFav(props.myId) == true ?
 
-             <button type='button' className='w-100 btn btn-lg btn-primary' 
+             <button type='button' className='w-100 btn btn-lg btn-info' 
              onClick={onClickFav}>Добавлен в избранное
              </button>
                 :
             <button 
-            type='button' className='w-100 btn btn-lg btn-primary'
+            type='button' className='w-100 btn btn-lg btn-info'
             onClick={onClickFav}>Добавить в избранное
             </button>
            
@@ -59,7 +59,7 @@ const Item = (props) => {
                         <p>{props.description}</p>
                         <p>{props.price}</p>
                         
-                        <button type='button' className='w-100 btn btn-lg btn-primary'
+                        <button type='button' className='w-100 btn btn-lg btn-info'
                 onClick={onClickAdd} > { context.isAdded(props.myId) ?  
                 <img width={13}
                  src={context.isAdded(props.myId) ? '/img/icon.png':'' }
